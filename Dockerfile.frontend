@@ -18,5 +18,5 @@
     # Copy React build output into Tomcat webapps
     COPY --from=build-stage /app/dist /usr/local/tomcat/webapps/ecommerce
 
-    EXPOSE 8082
+    EXPOSE 8080
     CMD ["catalina.sh", "run"]
