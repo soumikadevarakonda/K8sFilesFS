@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: soumikadevarakonda/k8sbes201:v2
+          image: soumikadevarakonda/k8sbackends201d:v4
           ports:
             - containerPort: 8080
           env:
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: soumikadevarakonda/k8sfes201:v6
+          image: soumikadevarakonda/k8sfrontends201d:v4
           ports:
             - containerPort: 8080
           env:
